@@ -1,8 +1,8 @@
-laki-laki(david).
-laki-laki(jack).
-laki-laki(john).
-laki-laki(ray).
-laki-laki(peter).
+laki_laki(david).
+laki_laki(jack).
+laki_laki(john).
+laki_laki(ray).
+laki_laki(peter).
 
 perempuan(amy).
 perempuan(karen).
@@ -64,7 +64,7 @@ cucu(X, Y) :-
 	(kakek(Y, X) ; nenek(Y, X)).
 
 om(X, Y) :- 
-	laki-laki(X), saudara(X, Z), 
+	laki_laki(X), saudara(X, Z), 
 	anak(Y, Z).
 
 tante(X, Y) :-  
