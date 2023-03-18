@@ -67,7 +67,7 @@ om(X, Y) :-
 	laki-laki(X), saudara(X, Z), 
 	anak(Y, Z).
 
-tante(X, Y) :- 
+tante(X, Y) :-  
 	perempuan(X), 
 	saudara(X, Z), 
 	anak(Y, Z).
